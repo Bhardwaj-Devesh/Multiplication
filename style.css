@@ -1,0 +1,55 @@
+body{
+    margin:0;
+    display:flex;
+    justify-content:center;
+    height:100vh;
+    align-items:center;
+    font-family: cursive;
+    background:rgb(13, 80, 167);
+    text-align:center;
+}
+form{
+    background: white;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 4px 8px rgb(0,0,0.3);
+}
+form .input{
+    display:block;
+    width:100%;
+    border-radius: 10px;
+    box-sizing: border-box;
+    /* box-sizing: boder-box is used to sizing the box in align */
+    
+    text-align: center;
+    font-size: 30px;
+    font-family:cursive;
+    border:solid 4px black;
+}
+.input::placeholder{
+    color:lightgray;
+
+}
+.btn{
+    background-color:rgb(26, 78, 168);
+    border:none;
+    font-family: cursive;
+    display:block;
+    width:100%;
+    box-sizing:boder-box;
+    border-radius:10px;
+    margin:10px 0;
+    padding:10px;
+    font-size:20px;
+    color: white;
+    cursor:pointer;
+}
+.btn:hover{
+    /* background-color:darkgreen; */
+    filter:brightness(0.9);
+    /*  This will the filter the brightness */
+}
+.score{
+    text-align:right;
+    color:rgb(17, 95, 144);
+}
